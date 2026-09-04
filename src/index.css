@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Author";
+  src: url("/public/fonts/OTF/Author-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --font-author: "Author", sans-serif;
+   --spacing-page: 2.5rem;
+}
+
+body{
+  background-color: black;
+}
+
+@utility paragraph {
+   @apply font-author text-base leading-7;
+}
+@utility title {
+  @apply font-author antialiased ;
+}
