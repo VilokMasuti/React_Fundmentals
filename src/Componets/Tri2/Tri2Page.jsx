@@ -2,6 +2,7 @@ import { Container } from '../Container'
 import Controlledinput from './Controlledinput'
 import Counter from './Counter'
 import Form from './Form'
+import LikeButton from './LikeButton'
 import Toggle from './Toggle'
 
 const Tri2Page = () => {
@@ -20,6 +21,8 @@ const Tri2Page = () => {
       <Controlledinput/>
 
       <Form/>
+
+      <LikeButton/>
     </Container>
   )
 }
