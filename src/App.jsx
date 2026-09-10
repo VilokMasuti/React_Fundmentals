@@ -1,18 +1,26 @@
-import TriPage from './Componets/Tri1/TriPage'
-import Tri2Page from './Componets/Tri2/Tri2Page'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import DashBoard from './pages/DashBoard'
+import Pratice from './pages/Pratice'
+import Test from './pages/Test'
 
 const App = () => {
 
 
 
 
+
   return (
-    <section >
+    <BrowserRouter>
+      <Routes>
+<Route  path='/' element={<DashBoard/>}/>
+<Route  path='/Pratice' element={<Pratice/>}/>
+<Route  path='/Test' element={<Test/>}/>
 
-<TriPage/>
-<Tri2Page/>
+      </Routes>
 
-    </section>
+
+
+    </BrowserRouter>
   )
 }
 

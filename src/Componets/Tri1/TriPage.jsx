@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { todos, users } from '../../../lib/Json'
 import { Container } from '../../../src/Componets/Container'
 import Error from '../Tri1/Error'
@@ -25,7 +26,14 @@ const TriPage = () => {
     <div className=' min-h-dvh'>
 
 <Container>
+<Link
+to={'/'}
+>
+  <button className=' bg-zinc-800  text-white px-2.5 rounded-sm border  border-dotted cursor-pointer mt-20'>
+BACK
+  </button>
 
+</Link>
 <ProductSection/>
 
 <ProductSeaction2/>

@@ -1,30 +1,29 @@
-import { Container } from '../Container'
-import Controlledinput from './Controlledinput'
-import Counter from './Counter'
-import Form from './Form'
-import LikeButton from './LikeButton'
-import Toggle from './Toggle'
+import { Container } from "../Container";
+import Controlledinput from "./Controlledinput";
+import Counter from "./Counter";
+import Form from "./Form";
+import LikeButton from "./LikeButton";
+import Productfilter from "./Productfilter";
+import Toggle from "./Toggle";
 
 const Tri2Page = () => {
   return (
     <Container>
-      <div className=' border-b '>
+      <div className=" border-b "></div>
+      <h1 className="  border-b border-dashed w-fit mt-7 text-3xl font-author antialiased">
+        State Management
+      </h1>
+      <Counter />
 
+      <Toggle />
+      <Controlledinput />
 
-      </div>
-      <h1 className='  border-b border-dashed w-fit mt-7 text-3xl font-author antialiased'>
-  State Management
-</h1>
-      <Counter/>
+      <Form />
 
-      <Toggle/>
-      <Controlledinput/>
-
-      <Form/>
-
-      <LikeButton/>
+      <LikeButton />
+      <Productfilter />
     </Container>
-  )
-}
+  );
+};
 
-export default Tri2Page
+export default Tri2Page;
