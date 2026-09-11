@@ -6,6 +6,7 @@ import Form from "./Form";
 import LikeButton from "./LikeButton";
 import Productfilter from "./Productfilter";
 import Toggle from "./Toggle";
+import { UserProfileEditor } from "./UserProfileEditor";
 
 const Tri2Page = () => {
   return (
@@ -25,6 +26,8 @@ const Tri2Page = () => {
       <Productfilter />
 
       <Cart />
+
+      <UserProfileEditor />
     </Container>
   );
 };
