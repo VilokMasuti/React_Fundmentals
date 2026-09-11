@@ -1,4 +1,5 @@
 import { Container } from "../Container";
+import Cart from "./Cart";
 import Controlledinput from "./Controlledinput";
 import Counter from "./Counter";
 import Form from "./Form";
@@ -22,6 +23,8 @@ const Tri2Page = () => {
 
       <LikeButton />
       <Productfilter />
+
+      <Cart />
     </Container>
   );
 };
