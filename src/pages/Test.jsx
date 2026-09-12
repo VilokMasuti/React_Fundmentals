@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Container } from "../Componets/Container";
-import Star from "../Componets/interview/Star";
+import { Star } from "../Componets/interview/Star";
 import Tabs from "../Componets/interview/Tabs";
 
 const Test = () => {

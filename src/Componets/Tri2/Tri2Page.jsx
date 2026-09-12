@@ -5,6 +5,7 @@ import Counter from "./Counter";
 import Form from "./Form";
 import LikeButton from "./LikeButton";
 import Productfilter from "./Productfilter";
+import TodoStart from "./TodoStart";
 import Toggle from "./Toggle";
 import { UserProfileEditor } from "./UserProfileEditor";
 
@@ -28,6 +29,8 @@ const Tri2Page = () => {
       <Cart />
 
       <UserProfileEditor />
+
+      <TodoStart />
     </Container>
   );
 };
