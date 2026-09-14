@@ -8,6 +8,7 @@ import Productfilter from "./Productfilter";
 import TodoStart from "./TodoStart";
 import Toggle from "./Toggle";
 import { UserProfileEditor } from "./UserProfileEditor";
+import UsersSelected from './UsersSelected';
 
 const Tri2Page = () => {
   return (
@@ -31,6 +32,8 @@ const Tri2Page = () => {
       <UserProfileEditor />
 
       <TodoStart />
+
+      <UsersSelected/>
     </Container>
   );
 };

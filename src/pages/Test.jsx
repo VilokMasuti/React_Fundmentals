@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { Container } from "../Componets/Container";
 import { Star } from "../Componets/interview/Star";
 import Tabs from "../Componets/interview/Tabs";
+import Todo from "../Componets/interview/Todo";
 
 const Test = () => {
   return (
@@ -15,6 +16,8 @@ const Test = () => {
       <Tabs />
 
       <Star maxRating={5} />
+
+      <Todo />
     </Container>
   );
 };
