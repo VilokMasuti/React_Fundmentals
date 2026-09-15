@@ -5,10 +5,11 @@ import Counter from "./Counter";
 import Form from "./Form";
 import LikeButton from "./LikeButton";
 import Productfilter from "./Productfilter";
+import TodoManger from "./TodoManger";
 import TodoStart from "./TodoStart";
 import Toggle from "./Toggle";
 import { UserProfileEditor } from "./UserProfileEditor";
-import UsersSelected from './UsersSelected';
+import { UsersSelected } from "./UsersSelected";
 
 const Tri2Page = () => {
   return (
@@ -33,7 +34,9 @@ const Tri2Page = () => {
 
       <TodoStart />
 
-      <UsersSelected/>
+      <UsersSelected />
+
+      <TodoManger />
     </Container>
   );
 };
