@@ -1,10 +1,12 @@
 import { Container } from "../Container";
 import Cart from "./Cart";
+import CartPrice from "./CartPrice";
 import Controlledinput from "./Controlledinput";
 import Counter from "./Counter";
 import Form from "./Form";
 import LikeButton from "./LikeButton";
 import Productfilter from "./Productfilter";
+import ProductFilterSearch from "./ProductFilterSearch";
 import TodoManger from "./TodoManger";
 import TodoStart from "./TodoStart";
 import Toggle from "./Toggle";
@@ -37,6 +39,9 @@ const Tri2Page = () => {
       <UsersSelected />
 
       <TodoManger />
+
+      <CartPrice />
+      <ProductFilterSearch />
     </Container>
   );
 };
