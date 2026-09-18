@@ -20,7 +20,7 @@ const Test = () => {
 
       <Todo />
 
-      <Faq />s
+      <Faq />
     </Container>
   );
 };
