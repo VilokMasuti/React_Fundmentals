@@ -126,7 +126,7 @@ const Searchinput = () => {
                 ))
                 .slice(0, 6)
             ) : (
-              <p className=" capitalize text-3xl items-center justify-center mx-auto">
+              <p className=" text-3xl items-center justify-center">
                 no Result found. Sorry.
               </p>
             )}

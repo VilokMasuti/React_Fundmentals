@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { Container } from "../Componets/Container";
 import Faq from "../Componets/interview/Faq";
+import Search from "../Componets/interview/Search";
 import { Star } from "../Componets/interview/Star";
 import Tabs from "../Componets/interview/Tabs";
 import Todo from "../Componets/interview/Todo";
@@ -21,6 +22,8 @@ const Test = () => {
       <Todo />
 
       <Faq />
+
+      <Search />
     </Container>
   );
 };
